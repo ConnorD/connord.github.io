@@ -63,4 +63,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: http://connordenman.com/sitemap.xml
+Sitemap: https://connordenman.com/sitemap.xml
