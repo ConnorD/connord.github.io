@@ -1,14 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Connor Denman&#39;s Personal Site</title>
-    <link>http://connordenman.com/</link>
-    <description>Recent content on Connor Denman&#39;s Personal Site</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="http://connordenman.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Connor Denman&#39;s Personal Site on Connor Denman&#39;s Personal Site</title><link>https://connordenman.com/</link><description>Recent content in Connor Denman&#39;s Personal Site on Connor Denman&#39;s Personal Site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 05 Jul 2018 20:06:28 -0600</lastBuildDate><atom:link href="/" rel="self" type="application/rss+xml"/><item><title>Test</title><link>https://connordenman.com/blog/test/</link><pubDate>Thu, 05 Jul 2018 20:06:28 -0600</pubDate><guid>https://connordenman.com/blog/test/</guid><description>&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;def test():
+hello()
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>About</title><link>https://connordenman.com/about/</link><pubDate>Thu, 05 Jul 2018 19:43:26 -0600</pubDate><guid>https://connordenman.com/about/</guid><description>
+&lt;h1 id=&#34;bio&#34;&gt;Bio&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;m a full stack software engineer passionate about clean architecture, improving processes, and scaling teams.&lt;/p&gt;
+&lt;h1 id=&#34;projects&#34;&gt;Projects&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Coming Soon&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Test</title><link>https://connordenman.com/2018/test/</link><pubDate>Thu, 05 Jul 2018 19:41:58 -0600</pubDate><guid>https://connordenman.com/2018/test/</guid><description>&lt;p&gt;This is my first post.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;def test():
+hello()
+&lt;/code&gt;&lt;/pre&gt;</description></item></channel></rss>
