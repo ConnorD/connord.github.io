@@ -6,8 +6,28 @@
     <description>Recent content in Connor Denman&#39;s Personal Site on Connor Denman&#39;s Personal Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Jul 2018 20:06:28 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 30 Apr 2019 19:43:26 -0600</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Cycling</title>
+      <link>https://connordenman.com/cycling/</link>
+      <pubDate>Tue, 30 Apr 2019 19:43:26 -0600</pubDate>
+      
+      <guid>https://connordenman.com/cycling/</guid>
+      <description>&lt;iframe height=&#39;160&#39; width=&#39;100%&#39; frameborder=&#39;0&#39; allowtransparency=&#39;true&#39; scrolling=&#39;no&#39; src=&#39;https://www.strava.com/athletes/751182/activity-summary/281947f146adf574c2ab2629098f3635321a2e16&#39;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Motorsport</title>
+      <link>https://connordenman.com/motorsport/</link>
+      <pubDate>Tue, 30 Apr 2019 19:43:26 -0600</pubDate>
+      
+      <guid>https://connordenman.com/motorsport/</guid>
+      <description>&lt;iframe height=&#39;160&#39; width=&#39;100%&#39; frameborder=&#39;0&#39; allowtransparency=&#39;true&#39; scrolling=&#39;no&#39; src=&#39;https://www.strava.com/athletes/751182/activity-summary/281947f146adf574c2ab2629098f3635321a2e16&#39;&gt;&lt;/iframe&gt;
+</description>
+    </item>
     
     <item>
       <title>Test</title>
@@ -23,10 +43,10 @@
     
     <item>
       <title>About</title>
-      <link>https://connordenman.com/about/</link>
+      <link>https://connordenman.com/engineering/</link>
       <pubDate>Thu, 05 Jul 2018 19:43:26 -0600</pubDate>
       
-      <guid>https://connordenman.com/about/</guid>
+      <guid>https://connordenman.com/engineering/</guid>
       <description>
 
 &lt;h1 id=&#34;bio&#34;&gt;Bio&lt;/h1&gt;
