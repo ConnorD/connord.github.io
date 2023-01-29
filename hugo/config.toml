@@ -1,0 +1,63 @@
+baseURL = "https://connordenman.com"
+languageCode = "en-us"
+title = "Connor Denman's Personal Site"
+theme = "LeaveIt"
+
+paginate = 12
+enableEmoji = true
+enableRobotsTXT = true
+googleAnalytics = ""
+
+preserveTaxonomyNames = true
+
+[blackfriday]
+  hrefTargetBlank = true
+  nofollowLinks = true
+  noreferrerLinks = true
+
+[Permalinks]
+ posts = "/:year/:filename/"
+
+[menu]
+  [[menu.main]]
+    name = "Engineering"
+    url = "/engineering/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Cycling"
+    url = "/cycling/"
+    weight = 3
+  
+  [[menu.main]]
+    name = "Résumé"
+    url = "/files/resume.pdf"
+    weight = 3
+
+[params]
+    since = 2016
+    author = "Connor Denman"                           # Author's name
+    avatar = "images/headshot.png"           # Author's avatar
+    subtitle = "Full-Stack Software Engineer in Denver, CO"         # Subtitle
+    cdn_url = ""           # Base CDN URL
+    home_mode = "other" # post or other
+
+    google_verification = ""
+   
+    description = "Full Stack Software Engineer in Denver, CO" # site description
+    keywords = "software,engineer,developer,python,dev,ops,denver" # site keywords
+
+    beian = ""
+    baiduAnalytics = ""
+
+    license= ''
+
+[params.social]
+    GitHub = "connord"
+    LinkedIn = "connor-denman-a65b3615"
+    Twitter = "ConnorDenman"
+    Email   = "connor.denman@gmail.com"
+
+[taxonomies]
+  tag = "tags"
+  categories = "categories"
