@@ -47,19 +47,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 [menu]
   [[menu.main]]
-    name = "Engineering"
-    url = "/engineering/"
+    name = "About"
+    url = "/about/"
     weight = 1
-
-  [[menu.main]]
-    name = "Cycling"
-    url = "/cycling/"
-    weight = 3
   
   [[menu.main]]
     name = "Résumé"
     url = "/files/resume.pdf"
-    weight = 3
+    weight = 2
 
 [params]
   title = "Connor Denman's Personal Site"
