@@ -1,0 +1,3 @@
+[submodule "hugo/themes/LoveIt"]
+	path = hugo/themes/LoveIt
+	url = git@github.com:dillonzq/LoveIt.git
