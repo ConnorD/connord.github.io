@@ -66,7 +66,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   defaultTheme = "light"
   since = 2016
   author = "Connor Denman"                           # Author's name
-  avatar = "images/headshot.png"           # Author's avatar
+  avatar = "/files/images/headshot.png"           # Author's avatar
   # subtitle = "Software Engineer specializing in Backend, Data, and DevOps."         # Subtitle
   home_mode = "other" # post or other
 
@@ -145,7 +145,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     gravatarEmail = ""
     # URL of avatar shown in home page
     # 主页显示头像的 URL
-    avatarURL = ""
+    avatarURL = "/files/images/headshot.png"
     # title shown in home page (HTML format is supported)
     # 主页显示的网站标题 (支持 HTML 格式)
     title = ""
