@@ -32,10 +32,10 @@ preserveTaxonomyNames = true
 
 ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
-[author]
-  name = "Connor Denman"
-  email = "connor.denman@gmail.com"
-  link = ""
+# [author]
+#   name = "Connor Denman"
+#   email = "connor.denman@gmail.com"
+#   link = ""
 
 [blackfriday]
   hrefTargetBlank = true
