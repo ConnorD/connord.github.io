@@ -1,3 +1,3 @@
-[submodule "hugo/themes/LoveIt"]
-	path = hugo/themes/LoveIt
-	url = git@github.com:dillonzq/LoveIt.git
+[submodule "content/content/themes/mini"]
+	path = content/content/themes/mini
+	url = https://github.com/nodejh/hugo-theme-mini.git
