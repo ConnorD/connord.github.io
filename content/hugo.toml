@@ -3,3 +3,15 @@ languageCode = 'en-us'
 title = "Connor Denman"
 
 theme = "mini"
+
+[params]
+    author = "Connor Denman"
+    bio = "Software Engineer specializing in Cloud, Backend, Data, and DevOps."
+    description = "My Blog"
+
+    showPowerBy = false
+    copyright = "Copyright © 2025 Connor Denman"
+
+    [social]
+        github = "https://github.com/ConnorD"
+        twitter = "https://twitter.com/ConnorD"
