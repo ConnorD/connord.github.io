@@ -4,6 +4,13 @@ title = "Connor Denman"
 
 theme = "mini"
 
+[permalinks]
+    posts = "/posts/:title/"
+
+[social]
+    github = "https://github.com/ConnorD"
+    twitter = "https://x.com/ConnorDenman"
+
 [params]
     author = "Connor Denman"
     bio = "Software Engineer specializing in Cloud, Backend, Data, and DevOps."
