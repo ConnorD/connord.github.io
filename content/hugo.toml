@@ -7,10 +7,6 @@ theme = "mini"
 [permalinks]
     posts = "/posts/:title/"
 
-[social]
-    github = "https://github.com/ConnorD"
-    twitter = "https://x.com/ConnorDenman"
-
 [params]
     author = "Connor Denman"
     bio = "Software Engineer specializing in Cloud, Backend, Data, and DevOps."
@@ -21,4 +17,4 @@ theme = "mini"
 
     [social]
         github = "https://github.com/ConnorD"
-        twitter = "https://twitter.com/ConnorD"
+        twitter = "https://x.com/ConnorD"
