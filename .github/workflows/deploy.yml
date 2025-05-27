@@ -17,6 +17,24 @@ concurrency:
 
 jobs:
   build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+      
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.147.5'
+
+      - name: Build
+        run: hugo --minify
+
+  deploy:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+    needs: build
     environment: github-pages
     runs-on: ubuntu-latest
     steps:
@@ -31,7 +49,6 @@ jobs:
           hugo-version: '0.147.5'
 
       - name: Build
-        working-directory: ./content
         run: hugo --minify
 
       - name: Setup Pages
