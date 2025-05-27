@@ -1,0 +1,40 @@
+baseURL = 'http://connordenman.com'
+defaultContentLanguage = 'en'
+languageCode = 'en-us'
+title = "Connor Denman"
+
+theme = "DoIt"
+
+[permalinks]
+    posts = "/posts/:title/"
+
+[params]
+    bio = "Software Engineer specializing in Cloud, Backend, Data, and DevOps."
+    description = "My Blog"
+
+    showPowerBy = false
+    copyright = "Copyright © 2025 Connor Denman"
+
+    [params.author]
+        name = "Connor Denman"
+        link = "https://connordenman.com"
+
+    [params.footer]
+        hugo = false  # Hide "Powered by Hugo & DoIt" text
+
+    [params.social]
+        github = "ConnorD"
+        twitter = "ConnorDenman"
+
+# Home page config
+[params.home]
+    [params.home.profile]
+        enable = true
+        avatarURL = "/images/avatar.jpg"
+        title = "Connor Denman"
+        subtitle = ""
+        typeit = false
+        social = true
+    
+    [params.home.posts]
+        enable = false  # Disable posts list on homepage
