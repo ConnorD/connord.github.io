@@ -17,7 +17,6 @@ concurrency:
 
 jobs:
   build:
-    environment: github-pages
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -29,9 +28,46 @@ jobs:
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: '0.147.5'
+          extended: true
 
       - name: Build
-        working-directory: ./content
+        run: hugo --minify
+
+  deploy:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+    needs: build
+    environment: github-pages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          cache-dependency-path: themes/DoIt/package-lock.json
+      
+      - name: Install theme dependencies
+        run: |
+          cd themes/DoIt
+          npm ci
+      
+      - name: Build theme assets
+        run: |
+          cd themes/DoIt
+          npm run build:tailwind
+      
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.147.5'
+          extended: true
+
+      - name: Build
         run: hugo --minify
 
       - name: Setup Pages
