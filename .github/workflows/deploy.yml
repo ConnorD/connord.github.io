@@ -24,23 +24,6 @@ jobs:
           submodules: true
           fetch-depth: 0
       
-      # - name: Setup Node.js
-      #   uses: actions/setup-node@v4
-      #   with:
-      #     node-version: '18'
-      #     cache: 'npm'
-      #     cache-dependency-path: themes/DoIt/package-lock.json
-      
-      # - name: Install theme dependencies
-      #   run: |
-      #     cd themes/DoIt
-      #     npm ci
-      
-      # - name: Build theme assets
-      #   run: |
-      #     cd themes/DoIt
-      #     npm run build:tailwind
-      
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
