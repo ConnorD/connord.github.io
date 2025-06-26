@@ -38,3 +38,10 @@ theme = "DoIt"
     
     [params.home.posts]
         enable = false  # Disable posts list on homepage
+
+[analytics]
+  enable = false
+  # Google Analytics
+  [analytics.google]
+    id = "G-B866GPED23"
+    anonymizeIP = true
