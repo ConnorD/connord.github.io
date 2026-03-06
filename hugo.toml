@@ -25,6 +25,7 @@ theme = "DoIt"
     [params.social]
         github = "ConnorD"
         twitter = "ConnorDenman"
+        linkedin = "connor-denman-a65b3615"
 
 # Home page config
 [params.home]
